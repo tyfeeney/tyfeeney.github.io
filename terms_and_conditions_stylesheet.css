@@ -1,0 +1,64 @@
+.collapsible {
+  background-color: rgba(255,255,255,0.5);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  background-image: url("clouds.jpg");
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  font-size: 40;
+  font-family: helvetica,sans-serif;
+  color: darkblue;
+  background-color: rgba(255,255,255,0.75);
+  padding-left: 15px;
+}
+.active, .collapsible:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.5);
+}
+
+button {
+  font-family: helvetica,sans-serif;
+  font-size: 25;
+  color: black;
+}
+
+h2 {
+  font-family: helvetica,sans-serif;
+  font-size: 40;
+  color: darkblue;
+}
+h4 {
+  font-family: helvetica,sans-serif;
+  font-size: 20;
+  color: black;
+}
+p {
+  font-family: helvetica,sans-serif;
+  font-size: 20;
+  color: black;
+}
