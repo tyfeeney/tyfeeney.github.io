@@ -51,7 +51,7 @@ h2 {
   font-family: helvetica,sans-serif;
   font-size: 40;
   color: darkblue;
-  padding-left: 45;
+  padding-left: 15;
 }
 h4 {
   font-family: helvetica,sans-serif;
@@ -62,4 +62,7 @@ p {
   font-family: helvetica,sans-serif;
   font-size: 20;
   color: black;
+}
+li {
+  font-family: helvetica,sans-serif;
 }
