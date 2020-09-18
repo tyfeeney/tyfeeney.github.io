@@ -20,6 +20,7 @@
 
 body {
   background-image: url("clouds.jpg");
+  overflow: scroll;
 }
 #navbar {
   overflow: hidden;
